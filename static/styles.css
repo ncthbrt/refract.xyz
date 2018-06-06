@@ -2,9 +2,14 @@
   height: 100vh;
   width: 100%;
 }
+
+body, h2 {
+  font-family: 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
 .main-splash {  
   background: #000005;
 }
+
 .main-splash-content {
   position: absolute;
   top: 50%;
@@ -13,24 +18,38 @@
   transform: translate(-50%, -50%)    
 }
 
-.main-splash h1 {
+.main-splash h1, .main-splash h1 a {
   font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
   color: #FFFF00;
   font-weight: lighter;
-  font-size: 36pt;
-  text-align: center;
+  font-size: 3rem;
+  text-align: center !important;
+  width: 100%;
 }
 
 .main-splash h2 {
-  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  
   font-weight: 400;
-  font-size: 24pt;
+  font-size: 2rem;
   color: white;
   text-align: center;
 }
 
 .main-logo {
-  height: 25vh;
-  width: auto; 
-  
+  height: auto;
+  width: auto;   
+}
+.main-splash-nav {
+  padding: 1.5vw;  
+  display: flex;
+  flex-direction: row-reverse;    
+  max-width:  100%;
+}
+
+.main-splash-nav a {
+  padding: 0.8rem;
+  font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }

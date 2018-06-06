@@ -22,11 +22,21 @@ function make() {
                       React.createElement("div", {
                             className: "main-splash page"
                           }, React.createElement("div", {
+                                className: "main-splash-nav"
+                              }, React.createElement("div", undefined, React.createElement("a", {
+                                        href: "https://github.com/ncthbrt/refract"
+                                      }, "Github")), React.createElement("div", undefined, React.createElement("a", {
+                                        href: "https://github.com/ncthbrt/refract"
+                                      }, "Reference")), React.createElement("div", undefined, React.createElement("a", {
+                                        href: "https://github.com/ncthbrt/refract"
+                                      }, "Guides"))), React.createElement("div", {
                                 className: "main-splash-content"
                               }, React.createElement("img", {
-                                    className: "main-logo",
+                                    className: "main-logo ",
                                     src: "/RefractLogo.svg"
-                                  }), React.createElement("h1", undefined, "REFRACT"), React.createElement("h2", undefined, "A composable web framework", React.createElement("br", undefined), "for OCaml & ReasonML"))),
+                                  }), React.createElement("h1", undefined, React.createElement("a", {
+                                        href: "/"
+                                      }, "REFRACT")), React.createElement("h2", undefined, "A composable web framework", React.createElement("br", undefined), "for OCaml & ReasonML"))),
                       React.createElement("div", {
                             className: "page"
                           }, React.createElement("h2", undefined, "WHY?"))

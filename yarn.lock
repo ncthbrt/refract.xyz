@@ -1075,6 +1075,14 @@ bs-express@^0.8.0:
   dependencies:
     express "^4.16.3"
 
+bs-json@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bs-json/-/bs-json-1.0.1.tgz#0e25ed5ba7164ab131e494669b755da9844cc37e"
+
+bs-platform@^2.1.0:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-2.2.3.tgz#d905ae10a5f3621e6a739041dfa0b58483a2174f"
+
 bs-platform@^3.1.4:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-3.1.5.tgz#fb34ee4702bc9163848d5537096c4f31ebaeed40"
@@ -3850,6 +3858,12 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
+refract-node@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/refract-node/-/refract-node-0.1.0.tgz#ced6a64e76985e2f00841bf996b4f2bdfa0e219c"
+  dependencies:
+    repromise "github:aantron/repromise"
+
 regenerate@^1.2.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
@@ -3922,6 +3936,12 @@ replace-ext@0.0.1:
 replace-ext@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
+
+"repromise@github:aantron/repromise":
+  version "0.1.0"
+  resolved "https://codeload.github.com/aantron/repromise/tar.gz/ee442dab26547bdeef16ce8fdff13e436159013f"
+  dependencies:
+    bs-platform "^2.1.0"
 
 require-directory@^2.1.1:
   version "2.1.1"
